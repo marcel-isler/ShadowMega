@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="ShadowHawk ProMega Hemera Inland PETG" version="2020-03-28 12:23:03" app="S3D-Software 4.1.2">
+<profile name="ShadowMega Hemera Inland PETG" version="2020-04-25 19:01:19" app="S3D-Software 4.1.2">
   <baseProfile>Default</baseProfile>
   <printMaterial>MG PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -31,9 +31,9 @@
   <startPointOriginY>5000</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>150</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>90</firstLayerWidthPercentage>
-  <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
+  <firstLayerHeightPercentage>80</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>105</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.2</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
   <raftTopLayers>3</raftTopLayers>
@@ -70,9 +70,9 @@
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>0</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45,0,90</externalInfillAngles>
-  <generateSupport>0</generateSupport>
+  <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
-  <supportInfillPercentage>40</supportInfillPercentage>
+  <supportInfillPercentage>20</supportInfillPercentage>
   <supportExtraInflation>0.6</supportExtraInflation>
   <supportBaseLayers>1</supportBaseLayers>
   <denseSupportExtruder>0</denseSupportExtruder>
@@ -100,12 +100,13 @@
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
+    <setpoint layer="3" speed="40"/>
   </fanSpeed>
-  <blipFanToFullPower>0</blipFanToFullPower>
+  <blipFanToFullPower>1</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
   <minSpeedLayerTime>20</minSpeedLayerTime>
   <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
-  <increaseFanForCooling>0</increaseFanForCooling>
+  <increaseFanForCooling>1</increaseFanForCooling>
   <minFanLayerTime>45</minFanLayerTime>
   <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
   <increaseFanForBridging>1</increaseFanForBridging>
@@ -159,7 +160,7 @@
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
   <bridgingExtrusionMultiplier>1.2</bridgingExtrusionMultiplier>
-  <bridgingSpeedMultiplier>0.3</bridgingSpeedMultiplier>
+  <bridgingSpeedMultiplier>0.8</bridgingSpeedMultiplier>
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>135</fixedBridgingAngle>
   <applyBridgingToPerimeters>1</applyBridgingToPerimeters>
@@ -241,7 +242,7 @@
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>15</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
+    <supportInfillPercentage>20</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
     <layerHeight>0.1</layerHeight>
@@ -324,6 +325,7 @@
     </temperatureController>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
+      <setpoint layer="3" speed="40"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>
