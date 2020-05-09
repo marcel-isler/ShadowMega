@@ -23,7 +23,7 @@ M350 E16 I1 ; Setting microstepping to 16 with interpolation.
 ; This is an advanced feature and should only be changed if you REALLY know what you're doing!
 ; Increasing stepper motor currents beyond their limit can result in damage to them!
 ; This only sets the currents for the extruder stepper, change the current for the motion steppers in machine_stepper_movement.g
-M906 E850 I60 ; Set motor currents (mA) and idle current percentage
+M906 E800 I60 ; Set motor currents (mA) and idle current percentage
 
 
 ; ---------- SECTION ----------

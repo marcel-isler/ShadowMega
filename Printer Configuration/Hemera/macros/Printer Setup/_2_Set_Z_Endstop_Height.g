@@ -20,7 +20,7 @@ G1 Z200 F2500 ; move the bed to 200mm from the nozzle
 G29 S2 ; Disable bed mesh
 G29 S2 ; Disable bed mesh
 
-G1 X200 Y200 Z20 F1500 ; center extruder and raise bed.
+G1 X310 Y330 Z20 F1500 ; center extruder and raise bed.
 
 M564 S0 ; Disable movement boundaries.
 

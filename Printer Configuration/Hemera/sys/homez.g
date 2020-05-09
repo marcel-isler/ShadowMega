@@ -33,7 +33,6 @@ G0 Z-10 F500
 G0 Z20 F120 S1
 
 M98 Pmachine_zendstop.g ; Set Z Endstop height
-M98 Pmachine_zprobe.g   ; Set Z Probe distance
 
 ; ============ Post-Homing ==============
 
